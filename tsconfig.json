@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "target": "ES2021",
+    "module": "ESNext",
+    "lib": ["ES2021", "DOM"],
+    "outDir": "dist",
+    "moduleResolution": "node",
+    "strict": true,
+    "declaration": true,
+    "esModuleInterop": true,
+    "types": ["@cloudflare/workers-types", "jest"]
+  },
+  "include": ["src"]
+}
