@@ -88,4 +88,8 @@ npm run test:coverage
 
 ## 📄 License
 
-MIT
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
+
+---
+
+Made with 💙 by [Iocium](https://github.com/iocium)
