@@ -1,6 +1,6 @@
 {
   "name": "@iocium/cachekit",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "A pluggable, backend-agnostic caching adapter for Node.js and serverless platforms",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
