@@ -3,7 +3,7 @@
  * Exports core factory and available cache backends.
  */
 export { createCacheKit } from './lib/cache';
-export type { CacheKit, CacheBackend } from './types';
+export type { CacheKit, CacheKitOptions, CacheRecord, CacheBackend } from './types';
 
 export { MemoryBackend } from './lib/memory';
 export { KVBackend } from './lib/kv';
