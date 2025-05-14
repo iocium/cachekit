@@ -67,7 +67,7 @@ const cache = createCacheKit({ backend: new D1Backend(MY_D1_INSTANCE) });
 ```
 
 > D1 requires a `cache` table:  
-```sql
+```text
 CREATE TABLE cache (
   key TEXT PRIMARY KEY,
   value TEXT,
