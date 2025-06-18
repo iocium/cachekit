@@ -2,13 +2,20 @@
   "name": "@iocium/cachekit",
   "version": "1.0.1",
   "description": "A pluggable, backend-agnostic caching adapter for Node.js and serverless platforms",
-  "main": "dist/index.js",
+  "main": "dist/index.cjs",
+  "module": "dist/index.js",
+  "exports": {
+    ".": {
+      "require": "./dist/index.cjs",
+      "import": "./dist/index.js"
+    },
+    "./package.json": "./package.json"
+  },
   "types": "dist/index.d.ts",
   "type": "module",
   "scripts": {
-    "dev": "tsc --watch",
-    "build": "tsc",
-    "build:tsup": "tsup src/index.ts --dts --format esm,cjs --out-dir dist",
+    "dev": "tsup --watch",
+    "build": "tsup",
     "test": "jest",
     "test:coverage": "jest --coverage",
     "docs": "typedoc"
