@@ -2,6 +2,14 @@
 
 **A flexible caching adapter with pluggable backends for Node.js and serverless environments**
 
+[![npm](https://img.shields.io/npm/v/@iocium/cachekit)](https://www.npmjs.com/package/@iocium/cachekit)
+[![build](https://github.com/iocium/cachekit/actions/workflows/test.yml/badge.svg)](https://github.com/iocium/cachekit/actions/workflows/test.yml)
+[![codecov](https://codecov.io/gh/iocium/cachekit/branch/main/graph/badge.svg)](https://codecov.io/gh/iocium/cachekit)
+[![npm downloads](https://img.shields.io/npm/dm/@iocium/cachekit)](https://www.npmjs.com/package/@iocium/cachekit)
+[![bundle size](https://img.shields.io/bundlephobia/minzip/@iocium/cachekit)](https://bundlephobia.com/package/@iocium/cachekit)
+[![types](https://img.shields.io/npm/types/@iocium/cachekit)](https://www.npmjs.com/package/@iocium/cachekit)
+[![license](https://img.shields.io/npm/l/@iocium/cachekit)](https://github.com/iocium/cachekit/blob/main/LICENSE)
+
 ---
 
 ## ✨ Features
