@@ -35,7 +35,7 @@
   "author": "Iocium",
   "license": "MIT",
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20250514.0",
+    "@cloudflare/workers-types": "^5.20260703.1",
     "@types/jest": "^30.0.0",
     "auto-changelog": "^2.5.0",
     "jest": "^30.2.0",
