@@ -40,7 +40,7 @@
     "auto-changelog": "^2.5.0",
     "jest": "^30.2.0",
     "ts-jest": "^29.3.3",
-    "tsup": "^8.4.0",
+    "tsup": "^9.0.0",
     "typedoc": "^0.28.4",
     "typescript": "^7.0.2"
   }
