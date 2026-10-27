@@ -24,7 +24,7 @@
 ## 📦 Installation
 
 ```bash
-npm install @iocium/cachekit
+bun add @iocium/cachekit
 ```
 
 ---
@@ -88,8 +88,8 @@ CREATE TABLE cache (
 ## 🧪 Testing
 
 ```bash
-npm run test
-npm run test:coverage
+bun run test
+bun run test:coverage
 ```
 
 ---
